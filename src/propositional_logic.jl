@@ -15,34 +15,34 @@ const ⊤ = true
 
 
 """
-# Falsity (\\bot)
+Falsity (\\bot)
 """
 const ⊥ = false
 
 
 """
-# And (\\wedge)
+And (\\wedge)
 """
 ∧(a,b) = a && b
 and = ∧ # alias
 
 
 """
-# Or (\\vee)
+Or (\\vee)
 """
 ∨(a,b) = a || b
 or = ∨ # alias
 
 
 """
-# Implication (\\implies, \\longrightarrow, \\rightarrow, \\Rightarrow)
+Implication (\\implies, \\longrightarrow, \\rightarrow, \\Rightarrow)
 """
 ⟶(p,q) = p ? q == true : true
 implies = ⟹ = ⇒ = → = ⟶ # aliases
 
 
 """
-# Biconditional (\\iff, \\leftrightarrow, \\Longleftrightarrow, \\Leftrightarrow)
+Biconditional (\\iff, \\leftrightarrow, \\Longleftrightarrow, \\Leftrightarrow)
 """
 ⟷(p,q) = (p → q) ∧ (q → p)
 iff = ⟺ = ⇔ = ↔ = ⟷ # aliases
