@@ -1,0 +1,4 @@
+name = "PropositionalLogic"
+uuid = "125ef973-255d-49fe-b0df-3518e3140294"
+authors = ["Robert Moss <mossr@cs.stanford.edu>"]
+version = "0.1.0"
